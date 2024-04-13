@@ -80,7 +80,7 @@ label{
     margin-top: 10px;
 }
 .space-div1{
-    height: 18rem;
+    height: 40%;
 }
 .mapbg{
     height: 24rem;
@@ -211,11 +211,8 @@ label{
     }
 
 }
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 800px) {
    .hd1{
     font-size: 30px;
-   }
-   .space-div1{
-    height: 40%;
    }
 }
