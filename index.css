@@ -192,3 +192,19 @@ label{
     font-weight: 500;
     font-size: 17px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .button-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+  }
+  @media only screen and (max-width: 1000px) {
+    .textbox-div{
+        flex-direction: column;
+    }
+
+}
