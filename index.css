@@ -1,0 +1,194 @@
+
+    .hd1{
+        font-weight: 700;
+        font-size: 52px;
+        font-family: UberMove, sans-serif;
+    }
+
+.modal.left .modal-dialog
+{
+position: fixed;
+margin: auto;
+width: 500px;
+height: 100%;
+-webkit-transform: translate3d(0%, 0, 0);
+-ms-transform: translate3d(0%, 0, 0);
+-o-transform: translate3d(0%, 0, 0);
+transform: translate3d(0%, 0, 0);
+}
+.modal-content{
+    height: inherit !important;
+}
+.modal.show .modal-dialog {
+    transition: opacity 0.3s linear, left 1s ease-out !important;
+}
+.custModel{
+    height: 100vh !important;
+    width: 19rem !important;
+}
+
+header{
+    position: fixed;
+    z-index: 20;
+    padding: 10px;
+    border: none;
+    transition: all 400ms ease;
+}
+.headline {
+    border-bottom: 1px solid rgb(243, 243, 243);
+    background-color: white;
+   
+  }
+ 
+.first-image{
+    background-image: url(images/background_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left:0;
+}
+
+.ueats{
+    width: 90px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.button1{
+    border-radius: 25px;
+    height: 35px;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    outline: none;
+}
+label{
+    cursor: pointer;
+    font-family: UberMove, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.column p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.column{
+    margin-top: 10px;
+}
+.space-div1{
+    height: 18rem;
+}
+.mapbg{
+    height: 24rem;
+    background-image: url(images/mapUS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img1 label{
+    cursor: pointer;
+    font-family: UberMove, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.u2{
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.imgid{
+    width: 144px;
+    height: 43px;
+    cursor: pointer;
+}
+.lang {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.r1{
+    width: 50%;
+}
+.r1 p:hover{
+    text-decoration: underline;
+}
+.line1{
+    border-top: 1px solid #837878;
+}
+.line2{
+    width: 84%;
+    border-top: 1px solid #837878;
+}
+.column p{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.wrappersub5 p{
+    cursor: pointer;
+}
+.iconwrapper img{
+    cursor: pointer;
+}
+.wrappersub5 p:hover{
+    text-decoration: underline;
+}
+#sgupm{
+    min-height: 56px;
+    padding: 12px 16px;
+    font-size: 18px;
+}
+#lginm{
+    min-height: 56px;
+    padding: 12px 16px;
+    font-size: 18px;
+    margin-top: -14px;
+}
+.img2{
+    border-radius: 15%;
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+}
+.modal-last{
+    justify-content:flex-start ;
+    flex-wrap: nowrap;
+}
+.bt2{
+    font-weight: 500;
+    border-radius: 25px;
+}
+.mod1{
+    justify-content:flex-start ;
+    border: none;
+}
+.li1{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#dlvrysl{
+    font-size: 16px;
+    border: none;
+    width: 14rem;
+}
+#locip:focus{
+    border-bottom: 2px solid #5d82ba;
+}
+
+.textbox-div {
+    width: 67%;
+    gap: 2rem;
+}
+#searchbt{
+    width: 12rem;
+    font-weight: 500;
+    font-size: 17px;
+}

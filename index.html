@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link  rel="stylesheet" href="https://fonts.cdnfonts.com/css/uber-move-2" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    <title>Uber Eats | Food Delivery and Takeout | Order Online from Restaurants Near You</title>
+</head>
+<body class="overflow-x-hidden">
+    <div class="modal fade left" tabindex="-1" id="myModal">
+        <div class="modal-dialog ms-0 my-0 custModel">
+          <div class="modal-content border-0 rounded-0">
+            <div class="modal-body">
+                <div class="container d-inline-flex flex-column ">
+                    <button type="button" class="btn button1 text-white bg-dark rounded-1" id="sgupm">Sign up</button><br>
+                    <button type="button" class="btn button1 bg-light rounded-1" id="lginm">Log in</button>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0 li1">Create a business account</li>
+                    <li class="list-group-item border-0 li1">Add your restaurant</li>
+                    <li class="list-group-item border-0 li1">Sign up to deliver</li>
+                </ul>
+            </div>
+            <div class="modal-footer mod1">
+                <div class="d-flex modal-last">
+                    <img alt="Uber Eats" role="img" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/31ee382bd0e6ed84.svg" loading="lazy" decoding="async" fetchpriority="high" class="img-fluid img2">
+                    <p>There's more to love in the app.</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-light bt2">iPhone</button>
+                    <button type="button" class="btn btn-light bt2">Android</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+<div class="container-fluid first-image">
+    <header class="container-fluid" id="uberhead">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div>
+        <i class="fa-sharp fa-solid fa-bars fa-lg icon1" data-bs-toggle="modal" data-bs-target="#myModal" id="icon01"></i>
+        <img class="ueats ms-4 mb-1" src="images/ubereats.svg" alt="Uber Eats"/>
+        </div>
+        <div>
+            <button type="button" class="btn button1 bg-white me-3" id="lgin">Log in</button>
+            <button type="button" class="btn button1 text-white bg-dark" id="sgup">Sign up</button>
+        </div>
+    </div>
+    </header>
+    <div class="container-fluid space-div1"></div>
+    <div class="container-fluid ms-5">
+        <p class="hd1">Order delivery near you</p>
+        <div class="container-fluid dd1">
+            <div class="textbox-div d-flex">
+                <div class="input-group ">
+                    <img class="input-group-text" id="img-fluid locimg" src="images/location.png"/>
+                    <input type="text" class="form-control" id="locip" placeholder="Enter delivery address" aria-describedby="locimg" />
+                
+                </div>
+                
+                <select class="form-select" name="Delivery" id="dlvrysl">
+                    <option value="Deliver now">Deliver now</option>
+                    <option value="Schedule for later">Schedule for later</option>
+                </select>
+                <button type="button" class="btn bg-dark text-white" id="searchbt">Search here</button>
+            </div>
+            <p>Or <u id="undersign">Sign In</u></p>
+            
+        </div>
+    </div>
+</div>
+<div class="container-fluid ps-0 my-4">
+    <div class="row justify-content-evenly">
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <img class="img-fluid" src="images/img1.jpg" alt="Feed your employees">
+        <label>Feed your employees</label><br>
+        <u class="u2">Create a business account</u>
+    </div>
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <img class="img-fluid" src="images/img2.jpg" alt="Your restaurant, delivered">
+        <label>Your restaurant, delivered</label><br>
+        <u class="u2">Add your restaurant</u>
+    </div>
+    <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <img class="img-fluid" src="images/img3.jpg" alt="Deliver with Uber Eats">
+        <label>Deliver with Uber Eats</label><br>
+        <u class="u2">Sign up to deliver</u>
+    </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container-fluid d-flex justify-content-between align-items-center wrapper3">
+        <div class="wrappersub1">
+            <h1>Cities near me</h1>
+        </div>
+        <div class="wrappersub2">
+            <u class="u3">View all 500+ cities</u>
+        </div>
+    </div>
+    <div class="container-fluid mapbg">
+    </div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="column col-12 col-sm-6 col-lg-3" >
+        <p>Akron</p>
+        <p>Albuquerque</p>
+        <p>Bridgeport</p>
+        <p>Concord</p>
+        <p>Dayton</p>
+        <p>El Paso</p>
+      </div>
+      <div class="column col-12 col-sm-6 col-lg-3" >
+        <p>Hartford</p>
+        <p>Houston</p>
+        <p>Indianapolis</p>
+        <p>McAllen</p>
+        <p>Mesa</p>
+        <p>Milwaukee</p>
+      </div>
+      <div class="column col-12 col-sm-6 col-lg-3" >
+        <p>Nashville</p>
+        <p>New Orleans</p>
+        <p>Oklahoma City</p>
+        <p>Omaha</p>
+        <p>Orlando</p>
+        <p>Palm Bay</p>
+      </div>
+      <div class="column col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
+          <p>Providence</p>
+          <p>Queens</p>
+          <p>San Antonio</p>
+          <p>Stony Brook</p>
+          <p>Tucson</p>
+          <p>West Hollywood</p>
+      </div>
+</div>
+</div>
+
+<div class="container-fluid">
+    <div class="container-fluid d-flex justify-content-between align-items-center wrapper4">
+        <div>
+            <h1>Countries with Uber Eats</h1>
+        </div>
+        <div>
+            <u class="u3">View all countries</u>
+        </div>
+    </div>
+</div>
+    <div class="container">
+    <div class="row">
+        <div class="column col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
+          <p>Australia</p>
+          <p>Belgium</p>
+          <p>Canada</p>
+          <p>Chile</p>
+          <p>Costa Rica</p>
+          <p>Dominican Republic</p>
+          <p>Ecuador</p>
+          <p>El Salvador</p>
+        </div>
+        <div class="column col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
+          <p>France</p>
+          <p>Germany</p>
+          <p>Guatemala</p>
+          <p>Ireland</p>
+          <p>Italy</p>
+          <p>Japan</p>
+          <p>Kenya</p>
+          <p>Mexico</p>
+        </div>
+        <div class="column col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+          <p>Netherlands</p>
+          <p>New Zealand</p>
+          <p>Panama</p>
+          <p>Poland</p>
+          <p>Portugal</p>
+          <p>South Africa</p>
+          <p>Spain</p>
+          <p>Sri Lanka</p>
+        </div>
+        <div class="column col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" >
+            <p>Sweden</p>
+            <p>Switzerland</p>
+            <p>Taiwan (ROC)</p>
+            <p>United Kingdom</p>
+            <p>United States</p>
+        </div>
+    </div>
+    </div>
+    <hr class="line1">
+    <div class="container d-flex justify-content-between">
+        <div class="wrapper5 d-inline-flex flex-column justify-content-around gap-4">
+            <div class="wrappersub3">
+                <img class="ueats1" src="images/ueats1.svg" alt="Uber Eats"/>
+            </div>
+            <div class="wrappersub4">
+                <img class="img-fluid imgid" src="images/appleid.svg" alt="App Store">
+                <img class="img-fluid imgid" src="images/gplayid.png" alt="Google Play">
+            </div>
+        </div>
+        <div class="row r1">
+            <div class="column col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <p>Get Help</p>
+              <p>Buy gift cards</p>
+              <p>Add your restaurant</p>
+              <p>Sign up to deliver</p>
+              <p>Create a business account</p>
+              <p>Promotions</p>
+            </div>
+            <div class="column col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <p>Restaurants near me</p>
+              <p>View all cities</p>
+              <p>View all countries</p>
+              <p>Pickup near me</p>
+              <p>About Uber Eats</p>
+              <p><svg aria-label="Select a language" role="img" focusable="false" viewBox="0 0 16 15" class="lang"><path d="M12.267 6.667H9.733l-.933 2.2c-.467-.2-1-.534-1.533-.934.866-.866 1.6-2 2-3.266h1.4v-2h-4v-2h-2v2h-4v2h1.466c.4 1.266 1.134 2.4 1.934 3.266-1.4.934-2.734 1.467-2.734 1.467v2.133L2 11.267c.133-.067 1.867-.667 3.667-2 .8.6 1.666 1.066 2.333 1.4l-1.8 4h2.2l.867-2h3.466l.867 2h2.2zm-5.2-2a6.79 6.79 0 01-1.4 2c-.534-.6-1.067-1.267-1.4-2zm3.066 6L11 8.733l.867 1.934z"></path></svg> English</p>
+              
+            </div>
+        </div>
+    </div>
+    <hr class="container-fluid line2">
+    <footer>
+        <div class="container d-flex justify-content-between">
+            <div class="iconwrapper">
+                <img class="img-fluid" src="images/fbk.png" alt="Facebook">
+                <img class="img-fluid" src="images/twitr.png" alt="Twitter">
+                <img class="img-fluid" src="images/insta.png" alt="Instagram">
+            </div>
+            <div class="wrapper d-inline-flex flex-column">
+                <div class="wrappersub5 d-inline-flex justify-content-end">
+                    <p class="me-3">Privacy Policy</p>
+                    <p class="me-3">Terms</p>
+                    <p class="me-3">Pricing</p>
+                    <p>Do not sell or share my personal information</p>
+                </div>
+                <div class="wrappersub6 d-inline-flex">
+                    <p class="me-3">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                    <p>&copy; 2024 Uber Technologies Inc.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
