@@ -200,6 +200,9 @@ label{
         flex-direction: column;
         gap: 10px;
     }
+    input#locip {
+        min-width: 14rem;
+    }
     
   }
   @media only screen and (max-width: 1000px) {
@@ -207,4 +210,12 @@ label{
         flex-direction: column;
     }
 
+}
+@media only screen and (max-height: 700px) {
+   .hd1{
+    font-size: 30px;
+   }
+   .space-div1{
+    height: 40%;
+   }
 }
